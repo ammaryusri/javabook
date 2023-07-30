@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL COLOR CREATION'S */
+:root {
+  --primary-color: #FB609B;
+  --success-color: #4CAF50;
+  --warning-color: #ff9800;
+  --error-color: #f44336;
+}
+
+/* GLOBAL BODY CREATION'S */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
