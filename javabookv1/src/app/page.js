@@ -103,15 +103,19 @@ export default function Home() {
   //** POST FAV LOGIC IMPLEMENTED */
   const toggleFavorite = async (item) => {
     try {
-      const res = await fetch("http://localhost:5000/api/favorites", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ item }),
-      });
-      const data = await res.json();
-      setFavorites(data);
+      if (favorites.some((favItem) => favItem.key === item.key)) {
+        console.log("Already a favourite");
+      } else {
+        const res = await fetch("http://localhost:5000/api/favorites", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ item }),
+        });
+        const data = await res.json();
+        setFavorites(data);
+      }
     } catch (error) {
       console.error("Error toggling favorite:", error);
     }
