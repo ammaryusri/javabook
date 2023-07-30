@@ -1,0 +1,68 @@
+@media (min-width: 701px) {
+  .loadercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .appHeading {
+    font-size: 36px;
+    font-family: Avenir;
+  }
+
+  .emptymessage {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    margin-top: 20px;
+  }
+
+  .favicon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .favbtn {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .favicon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .favbtn {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: -150px;
+  }
+
+  .loadercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .appHeading {
+    font-size: 36px;
+    text-align: center;
+  }
+  .emptymessage {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    margin-top: 20px;
+  }
+  .outercontainer {
+    display: block;
+  }
+}
