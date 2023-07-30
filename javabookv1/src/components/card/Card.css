@@ -1,0 +1,219 @@
+@media (max-width: 700px) {
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 0 16px 0 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+  }
+
+  .card :hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 18px;
+    position: relative;
+    bottom: -23px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .price {
+    font-size: 14px;
+    color: #999;
+    font-weight: bold;
+  }
+
+  .profilepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .heartlogo {
+    width: 23px;
+    height: 23px;
+    overflow: hidden;
+  }
+
+  .liketext {
+    font-size: 18px;
+    color: #aa8dd6;
+  }
+  .hastag {
+    color: #aa8dd6;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .deatils {
+    font-size: 16px;
+    margin: 0;
+    color: #878787;
+  }
+  .comment {
+    font-size: 12px;
+    margin: 0;
+    color: #acacac;
+  }
+
+  .cardheader {
+    display: flex;
+  }
+
+  .productpic {
+    width: 100%;
+    height: auto;
+  }
+
+  .innerproduct {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+
+  .imagecontainer {
+    position: relative;
+    display: inline-block;
+  }
+
+  .productText {
+    margin: 0;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+  .productPrice {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+  .togglebutton {
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    margin: 0;
+    color: #acacac;
+  }
+}
+
+@media (min-width: 701px) {
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 0 16px 0 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+  }
+
+  .title {
+    font-size: 18px;
+    position: relative;
+    bottom: -23px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .price {
+    font-size: 14px;
+    color: #999;
+    font-weight: bold;
+  }
+
+  .profilepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .heartlogo {
+    width: 23px;
+    height: 23px;
+    overflow: hidden;
+  }
+
+  .liketext {
+    font-size: 18px;
+    color: #aa8dd6;
+  }
+  .hastag {
+    color: #aa8dd6;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .deatils {
+    font-size: 16px;
+    margin: 0;
+    color: #878787;
+  }
+  .comment {
+    font-size: 12px;
+    margin: 0;
+    color: #acacac;
+  }
+
+  .cardheader {
+    display: flex;
+  }
+
+  .productpic {
+    width: 50%; /* Set the width to 100% */
+    height: auto; /* Set height to auto to maintain aspect ratio */
+  }
+
+  .innerproduct {
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    padding: 10px;
+    /* border-radius: 5px;
+      font-size: 18px;
+      color: #000000; */
+  }
+
+  .imagecontainer {
+    position: relative;
+    display: inline-block;
+  }
+
+  .productText {
+    margin: 0;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+  .productPrice {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+  .togglebutton {
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    margin: 0;
+    color: #acacac;
+  }
+}
